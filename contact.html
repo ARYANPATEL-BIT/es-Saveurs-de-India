@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>es Saveurs de India</title>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="menu.html">Menu</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Contact</h1>
+      <form>
+        <label for="last-name">Last Name :</label>
+        <input type="text" id="last-name" name="last-name" required /><br />
+
+        <label for="first-name">First Name :</label>
+        <input type="text" id="first-name" name="first-name" required /><br />
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required /><br />
+
+        <label for="password">Password :</label>
+        <input type="password" id="password" name="password" required /><br />
+
+        <label for="age">Age :</label>
+        <input type="number" id="age" name="age" required /><br />
+
+        <label for="phone">Phone :</label>
+        <input type="number" id="phone" name="phone" required /><br />
+
+        <label for="date">Date :</label>
+        <input type="date" id="date" name="date" required /><br />
+
+        <label for="time">Time :</label>
+        <input type="time" id="time" name="time" required /><br />
+
+        <label for="guest">Number Of Guest :</label>
+        <input type="number" id="guest" name="guest" required /><br />
+
+        <label>Seating Preference :</label>
+        <div class="radio-group">
+          <input type="radio" name="seating" id="indoor" value="Indoor" />
+          <label for="indoor">Indoor</label>
+
+          <input type="radio" name="seating" id="outdoor" value="Outdoor" />
+          <label for="outdoor">Outdoor</label>
+        </div>
+
+        <label>Allergies :</label>
+        <div class="checkbox-group">
+          <input type="checkbox" id="Nut" name="allergies" value="Nut" />
+          <label for="Nut">Nut</label>
+
+          <input type="checkbox" id="Dairy" name="allergies" value="Dairy" />
+          <label for="Dairy">Dairy</label>
+
+          <input type="checkbox" id="Gluten" name="allergies" value="Gluten" />
+          <label for="Gluten">Gluten</label><br /><br />
+        </div>
+
+        <label for="message">Message</label>
+        <textarea type="message" id="message" name="message" rows="4"></textarea
+        ><br />
+
+        <button>Submit</button>
+
+        <label>Map</label>
+        <iframe
+          id="iframe"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.5613014808687!2d2.3484084!3d48.8475061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671e66c5ec31d%3A0x463c54ca4cc02916!2s27%20Rue%20de%20la%20Montagne%20Ste%20Genevi%C3%A8ve%2C%2075005%20Paris%2C%20France!5e0!3m2!1sen!2sin!4v1765140139391!5m2!1sen!2sin"
+          width="400"
+          height="350"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe
+        ><br />
+
+        <div>
+          <iframe
+            width="400"
+            height="700"
+            src="https://www.youtube.com/embed/dnID6KuxfCw"
+            title="YouTube Shorts video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            loading="lazy"
+          >
+          </iframe>
+        </div>
+      </form>
+    </main>
+
+    <footer class="footer">
+      <h3 class="f-res-name">Les Saveurs de India</h3>
+      <br />
+      <div class="f-info">
+        <p>27 Rue de la Montagne Sainte-Geneviève, 75005 Paris, France</p>
+        <p>Phone: +33 1 86 99 24 70</p>
+      </div>
+      <p>© 2025 Les Saveurs de India. All rights reserved.</p>
+      <br />
+    </footer>
+  </body>
+</html>

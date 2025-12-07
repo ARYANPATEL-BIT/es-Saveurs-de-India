@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: #F8F4EC;
+}
+
+.nav-links{
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 10px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    display: inline-block;
+    color: #2C2C2C;
+}
+
+.nav-links a:hover{
+    transform: scale(1.05);
+    transition: all 0.2s ease;
+    color: #C5A572;
+}
+
+#about_res{
+    margin: 10px;
+    padding: 20px;
+}
+
+.res_name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    font-size: 30px;
+}
+
+.tag_line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.menu-btn{
+    padding: 20px;
+    background-color: #C5A572;
+    display: flex;
+    padding-left: 250px;
+
+}
+
+.about_menu{
+    font-size: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.btn{
+    background-color: #F8F4EC;
+    border: none;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:45px;
+    width: 80px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.button{
+    padding-left: 100px;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #2C2C2C;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.fav-dishes{
+    background-color: #F8F4EC;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+.dishes{
+    background-color:#FFFFFF;
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+}
+
+.dish_name{
+    color: #2C2C2C;
+    padding: 20px;
+    font-size: 22px;
+}
+
+.dish_details{
+    color: #4A4A4A;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.dish-card{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.popular{
+    padding: 20px;
+
+}
+
+.footer{
+    background-color:#F4EFE7;
+    color: #2C2C2C;
+    padding: 25px;
+    gap: 20px;
+}
+
+.f-res-name{
+    font-size: 22px;
+}
+
+.f-info{
+    display: flex; 
+    padding-bottom: 15px;  
+}
+
+.f-info p:nth-child(2){
+    padding-left: 40px;
+}
